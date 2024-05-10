@@ -1,0 +1,51 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: solid white;
+  color: white;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100vh;
+  line-height: 1.5;
+  background-color: black;
+}
+
+.Quote-box{
+  height: 50rem;
+  width: 20rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  
+}
+
+#quote{
+  /* height:5rem; */
+}
+
+h1{
+  color: green;
+}
+
+.Quote1{
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: solid 5px;
+  border-image: linear-gradient(45deg, purple, orange) 1;
+}
