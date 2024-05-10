@@ -35,8 +35,11 @@ body {
   
 }
 
-#quote{
-  /* height:5rem; */
+#title{
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  background-clip: text;
+  color: transparent;
+  animation: hue 10s infinite linear;
 }
 
 h1{
